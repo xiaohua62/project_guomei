@@ -1,0 +1,457 @@
+.style-gray {
+    color: #999;
+}
+
+
+/* header 头部 start */
+
+.header {
+    /* background-color: #ffe8ce; */
+}
+
+
+/* 手机 导航 start */
+
+.header-h5 {
+    padding: 1px 30px 5px;
+}
+
+.nav-h5 {
+    position: relative;
+    display: flex;
+}
+
+.nav-h5 li {
+    flex: 1;
+    font-size: 14px;
+    text-align: center;
+}
+
+.nav-h5 li {
+    padding: 20px 0;
+}
+
+.nav-h5 .lines::before {
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+
+/* 手机 搜索 导航 end */
+
+
+/* 主体  */
+
+
+/* Total 全部商品分类 */
+
+.total {
+    height: 77px;
+    line-height: 77px;
+    font-size: 14px;
+}
+
+.total a .icon::before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -6px;
+}
+
+
+/* All 所有分类 */
+
+.all-a {
+    position: relative;
+    background-color: #fff!important;
+    color: #222!important;
+    font-size: 12px;
+    border: 0;
+}
+
+.all-a .ipt {
+    width: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.all-a .icon::before {
+    position: absolute;
+    top: 20px;
+    left: 292px;
+    content: '';
+    width: 13px;
+    height: 13px;
+    /* background-color: skyblue; */
+    background: url(../images/sprite.png) no-repeat -60px -280px;
+    background-size: 104px;
+}
+
+.all-a-b {
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+    border: 1px solid #fcdacf;
+    color: #fcdacf;
+}
+
+.all-b {
+    border-top: 1px solid #ddd;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+.all-b-left {
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+.all-b .all-b-left a {
+    width: 116px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    color: #ccc;
+}
+
+.all-b-right {
+    float: left;
+}
+
+.all-b-right a {
+    display: inline-block;
+    font-size: 14px;
+    color: #222!important;
+    padding: 0 8px;
+}
+
+.all-c {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+.all-c-left {
+    float: left;
+}
+
+.all-c-left a {
+    display: inline-block;
+    border-right: 1px solid #000;
+}
+
+
+/* sort 综合排序  start- */
+
+.sort {
+    overflow: hidden;
+    height: 50px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.sort-left {
+    float: left;
+}
+
+.sort-ground {
+    float: left;
+}
+
+.sort-ground li {
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+.sort-ground li a {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.sort-ground li a:hover {
+    background-color: #ddd;
+}
+
+.current {
+    background-color: #ddd;
+}
+
+.sort-right {
+    float: right;
+}
+
+.price-bar .txt {
+    width: 52px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+}
+
+.price-bar .txts {
+    width: 52px;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+
+.area-bar {
+    margin-left: 10px;
+}
+
+.area-bar h5 {
+    display: inline-block;
+}
+
+.area-bar-a {
+    margin-top: -5px;
+}
+
+.sort-right {
+    border-left: 1px solid #ddd;
+}
+
+.sort-right input {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.sort-right-a {
+    display: inline-block;
+}
+
+.sort-right-b {
+    padding: 0;
+    border: 0;
+    margin: 0 10px;
+}
+
+
+/* search-result   搜索内容  start */
+
+.search-result-a img {
+    width: 100%;
+}
+
+.search-result-a {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.search-result-c {
+    margin-top: 15px;
+}
+
+.search-result-c h5 {
+    font-size: 14px;
+    color: #222;
+    font-weight: 700;
+}
+
+.search-result-c .price {
+    margin: 10px 0;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+}
+
+.search-result-c .price i {
+    font-size: 14px;
+}
+
+.search-result-c .price em {
+    float: right;
+    font-size: 14px;
+    padding: 0 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.search-result-c .totals {
+    font-size: 12px;
+    color: #999;
+}
+
+.search-result-c .totals i {
+    float: right;
+}
+
+
+/* 页码 */
+
+
+/*page分页制作*/
+
+.page {
+    margin-top: 50px;
+    /*里面的文字内容 行内块 行内元素 都可以居中对齐*/
+    text-align: center;
+}
+
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    line-height: 36px;
+}
+
+.page_num .pn_next,
+.page_num .pn_prev {
+    width: 83px;
+}
+
+.page_num .current,
+.page_num .dotted {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.page_skip input {
+    width: 46px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    text-align: center;
+    /*过渡写在本身上，谁做动画，维谁加*/
+    transition: all .3s;
+}
+
+
+/* 猜你喜欢 */
+
+.like-hd {
+    padding: 70px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #222;
+}
+
+
+/* 0 */
+
+.like-bd-b img {
+    width: 100%;
+}
+
+.like-bd-b {
+    padding: 13px 13px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.like-bd-b h5 {
+    font-size: 14px;
+    color: #222;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.like-bd-b .price {
+    margin: 10px 0;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+}
+
+.like-bd-b .price i {
+    font-size: 14px;
+}
+
+.like-bd-b .price em {
+    float: right;
+    font-size: 14px;
+    padding: 0 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.like-bd-b .totals {
+    font-size: 12px;
+    color: #999;
+}
+
+.like-bd-b .totals i {
+    float: right;
+}
+
+
+/* 移动端 popular-h5-hd start  */
+
+.popular-h5-hd {
+    height: 40px;
+    line-height: 40px;
+    margin: 0 27px;
+    color: #333;
+}
+
+.popular-h5-hd .left {
+    float: left;
+}
+
+.popular-h5-hd .left h5 {
+    line-height: 40px;
+}
+
+.popular-h5-hd .left h5::before {
+    display: inline-block;
+    content: '';
+    width: 3px;
+    height: 15px;
+    background-color: #fd894c;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.popular-h5-hd .right a {
+    float: right;
+    font-size: 12px;
+}
+
+
+/* 移动端 popular-h5-hd end */
+
+@media screen and (max-width:991px) {
+    .search-result-c {
+        margin-top: 11px;
+    }
+    .like-bd-a {
+        padding: 0;
+    }
+}
+
+
+/* 当我们进入 超小屏幕 */
+
+@media screen and (max-width:767px) {
+    .search-result-b {
+        padding-left: 27px;
+    }
+    .like-bd {
+        padding: 0 0 0 15px;
+    }
+    .like-bd-a {
+        padding-right: 15px;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .search-result-c {
+        margin-top: 5px;
+    }
+}

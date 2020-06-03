@@ -1,0 +1,265 @@
+.w {
+    height: 336px;
+    background: url(../upload/b.png) no-repeat;
+    background-size: contain;
+}
+
+body {
+    background-color: #f5f5f5!important;
+}
+
+.style-pink {
+    color: #ff6193;
+}
+
+
+/* 搜索 start */
+
+.search-h5 {
+    position: relative;
+    display: flex;
+}
+
+.search-h5 input {
+    flex: 1;
+    height: 1.013333rem;
+    background-color: #fff;
+    border-radius: .666667rem;
+    margin: .426667rem .44rem .066667rem;
+    padding-left: 1.973333rem;
+    font-size: .346667rem;
+    color: #cecece;
+    box-shadow: 0 .026667rem .026667rem rgba(0, 0, 0, .2);
+}
+
+.search-h5 .line::before {
+    position: absolute;
+    top: .466667rem;
+    left: 2.08rem;
+    content: '';
+    width: .026667rem;
+    height: .933333rem;
+    border-left: .026667rem dotted #cecece;
+}
+
+.search-h5 .icon::before {
+    position: absolute;
+    top: .666667rem;
+    left: .933333rem;
+    content: '';
+    width: .56rem;
+    height: .56rem;
+    /* background-color: pink; */
+    background: url(../images/f.jpg) no-repeat;
+    background-size: .56rem .56rem;
+}
+
+
+/* 子导航 start */
+
+.subnav {
+    position: relative;
+    flex: 1;
+    height: 1.146667rem;
+    line-height: 1.146667rem;
+    display: flex;
+    margin: 0 .44rem;
+    text-align: center;
+}
+
+.subnav li {
+    flex: 1;
+    font-size: .373333rem;
+    color: #c31e3e
+}
+
+.subnav .line::before {
+    position: absolute;
+    bottom: 0;
+    left: .293333rem;
+    content: '';
+    width: .706667rem;
+    height: .053333rem;
+    background-color: #c31e3e;
+    border-radius: .266667rem;
+}
+
+
+/* 主体 白底 */
+
+.main {
+    background-color: #fff;
+}
+
+
+/* 焦点图 start */
+
+.banner {
+    overflow: hidden;
+    margin: .32rem .44rem 0;
+    border-radius: .266667rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 导航 start */
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 .44rem;
+}
+
+.nav li {
+    flex: 20%;
+    margin: .44rem 0;
+}
+
+.nav li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav .icon::before {
+    display: inline-block;
+    content: '';
+    width: 1.066667rem;
+    height: 1.066667rem;
+    /* background-color: skyblue; */
+    background: url(../images/a.png) no-repeat;
+    background-size: 1.106667rem
+}
+
+
+/* 栏目 start   */
+
+.column {
+    margin: .36rem .44rem;
+    background-color: #f5f5f5;
+    border-radius: .133333rem;
+    border: .013333rem solid #d8d7d6;
+    background-color: #fff;
+}
+
+.tab-content-item {
+    display: none;
+}
+
+.tab-list {
+    position: relative;
+    display: flex;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    border-bottom: .013333rem solid #d8d7d6;
+}
+
+.tab-list li {
+    flex: 1;
+    text-align: center;
+}
+
+.tab-list .line::before {
+    position: absolute;
+    bottom: 0;
+    left: .64rem;
+    content: '';
+    width: .973333rem;
+    height: .053333rem;
+    border-radius: .2rem;
+    background: -webkit-linear-gradient(left, #f935cc, #fe2654);
+}
+
+
+/* 0 */
+
+.content-box {
+    display: flex;
+    margin: 0 .226667rem;
+    padding: .36rem 0;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.item-left {
+    flex: 1;
+}
+
+.item-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-right {
+    flex: 2;
+    margin: 0 .253333rem;
+}
+
+.item-right .title {
+    font-size: .4rem;
+    color: #333;
+}
+
+.item-right .box {
+    margin: .066667rem;
+}
+
+.item-right .cheek::before {
+    content: '券';
+    padding: .066667rem .066667rem;
+    border: .013333rem solid #f52b15;
+    border-radius: .066667rem;
+    font-size: .32rem;
+}
+
+.item-right .cheeks::after {
+    content: '22元';
+    padding: .066667rem .066667rem;
+    border: .013333rem solid #f52b15;
+    border-radius: .066667rem;
+    margin-left: .066667rem;
+    font-size: .32rem;
+}
+
+.item-right .box .spell {
+    font-size: .32rem;
+    margin-left: .066667rem;
+    color: #999;
+}
+
+
+/* 0 */
+
+.item-right .prix {
+    font-size: .4rem;
+    color: #f52b15;
+    margin-top: .666667rem;
+}
+
+.item-right .prix i {
+    font-size: .24rem;
+    color: #f52b15;
+}
+
+.item-right .prix del {
+    font-size: .24rem;
+    color: #999999;
+    margin-right: 1.28rem;
+}
+
+.item-right .prix .now {
+    font-size: .266667rem;
+    color: #fff;
+    padding: .066667rem .133333rem;
+    background: -webkit-linear-gradient(left, #fe373a, #fb40c3);
+    border-radius: .266667rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    .item-right .prix del {
+        margin-right: .026667rem;
+    }
+}

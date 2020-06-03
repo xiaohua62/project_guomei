@@ -1,0 +1,938 @@
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0!important;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+body {
+    height: 6000px
+}
+
+p {
+    margin: 0;
+}
+
+.style-pink {
+    color: #ff6bc5;
+}
+
+
+/* 移动端 header 头部 start */
+
+
+/* 移动端搜索 start */
+
+.search-h5 {
+    position: relative;
+    width: 100%;
+    /* background-color: pink; */
+    padding: 11px;
+}
+
+.ipt-h5 {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 10px;
+    color: #cecece;
+    padding: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+    padding-left: 58px;
+}
+
+.search-h5 .line::before {
+    position: absolute;
+    top: 11px;
+    left: 59px;
+    content: '';
+    width: 2px;
+    height: 30px;
+    border-left: 1px dotted #cecece;
+}
+
+.search-h5 .icon::before {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+    content: '';
+    width: 17px;
+    height: 17px;
+    /* background-color: pink; */
+    background: url(../images/f.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* 移动端子导航 start */
+
+.subnav-h5 {
+    position: relative;
+    display: flex!important;
+    flex: 1;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.subnav-h5 li {
+    flex: 1;
+    font-size: 16px;
+    color: #c31e3e;
+}
+
+.subnav-h5 .line::before {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    content: '';
+    width: 32px;
+    height: 2px;
+    background-color: #c31e3e;
+    border-radius: 20px;
+}
+
+
+/* 移动端 header 头部 end */
+
+
+/* main 主体 start */
+
+.focus {
+    float: left;
+    margin-left: 166px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.newflash {
+    /* display: none; */
+    position: relative;
+}
+
+.newflash .news {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news {
+    height: 448px;
+    background-color: #fff;
+    padding: 0;
+}
+
+.new {
+    width: 100%;
+    height: 153px;
+    background-color: #fff;
+    padding: 0 18px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.new-hd {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.new-hd h5 {
+    display: inline-block;
+}
+
+.new-hd .more {
+    float: right;
+}
+
+.new-hd .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid #999;
+    border-top: 1px solid #999;
+    transform: rotate(45deg);
+    margin-top: -3px;
+}
+
+.new-bd ul li {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.life {
+    height: 162px;
+    /* background-color: #acf8c2; */
+}
+
+.life ul li {
+    float: left;
+    width: 33.33%;
+    height: 80px;
+    text-align: center;
+    /* background-color: skyblue; */
+}
+
+.life ul li h5 {
+    margin: 12px auto 2px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #ff6bc5;
+}
+
+.low {
+    height: 133px;
+}
+
+.low img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 移动端 导航 start */
+
+.nav-h5 {
+    display: flex!important;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.nav-h5 li {
+    flex: 20%;
+    margin: 10px 0;
+}
+
+.nav-h5 li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.nav-h5 .icon::before {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: skyblue;
+}
+
+
+/* Must 每日必抢 start */
+
+.must {
+    padding: 0;
+    height: 250px;
+}
+
+.must-left {
+    border-top: 2px solid #ff6bc5;
+    height: 41px;
+    border-bottom: 1px solid #ccc;
+}
+
+.must-hd {
+    overflow: hidden;
+    position: relative;
+}
+
+.beutifuly {
+    float: left;
+}
+
+.must-hd .icon::before {
+    position: absolute;
+    top: 4px;
+    left: 11px;
+    content: '';
+    width: 25px;
+    height: 27px;
+    /* background-color: pink; */
+    background: url(../images/must.jpeg) no-repeat;
+}
+
+.must-hd h4 {
+    height: 41px;
+    line-height: 41px;
+    padding-left: 50px;
+}
+
+.must-hd .time {
+    float: right;
+    height: 37px;
+    line-height: 37px;
+    padding-right: 11px;
+}
+
+.infor {
+    float: left;
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.time {
+    display: inline-block;
+    /* margin: 2px; */
+    padding-right: 6px;
+    padding: 2px;
+}
+
+.hour,
+.minute,
+.second {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #ff6bc5;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 5px;
+}
+
+.must-bd div {
+    float: left;
+    height: 210px;
+    /* background-color: skyblue; */
+}
+
+.must-bd img {
+    width: 100%;
+    height: 100%;
+}
+
+.must-right {
+    padding-left: 40px;
+    padding-right: 0;
+}
+
+.must-right ul {
+    border-top: 2px solid #ff6bc5;
+}
+
+.must-right img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Must 每日必抢 end */
+
+
+/* material  实惠 start  */
+
+.material {
+    margin-top: 23px;
+    padding: 0;
+}
+
+.material-hd {
+    position: relative;
+    height: 42px;
+    /* border-top: 2px solid #ff6bc5; */
+}
+
+.material-hd .icon::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 80px;
+    height: 40px;
+    /* background-color: skyblue; */
+    background: url(../images/ui.png) no-repeat -162px -92px;
+}
+
+.material-hd h4 {
+    line-height: 42px;
+    padding-left: 90px;
+    color: #cecece;
+}
+
+.material-bd {
+    padding: 0;
+}
+
+.material-bd img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* material  实惠 end */
+
+
+/* Voucher 领券 start */
+
+.voucher {
+    margin-top: 20px;
+}
+
+.voucher a {
+    float: left;
+    height: 111px;
+    background-color: pink;
+}
+
+.voucher a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Voucher 领券 end */
+
+
+/* like 喜欢 start  */
+
+.like {
+    margin-top: 19px;
+}
+
+.like-hd {
+    height: 42px;
+    /* background-color: pink; */
+}
+
+.like-hd h4 {
+    display: inline-block;
+    line-height: 42px;
+    /* padding-left: 15px; */
+    color: #ff6bc5;
+}
+
+.like-hd h5 {
+    display: inline-block;
+    color: #cecece;
+    padding-left: 9px;
+}
+
+.like-arrow {
+    float: right;
+    line-height: 42px;
+    padding-right: 15px;
+}
+
+.like-bd {
+    height: 250px;
+    /* background-color: pink; */
+}
+
+.like-bd img {
+    width: 100%;
+}
+
+.like-bd div {
+    height: 250px;
+    border: 1px solid #ccc;
+}
+
+.like-bd h5 {
+    padding: 15px;
+}
+
+.like-bd .price {
+    color: red;
+    font-size: 16px;
+    padding: 15px;
+}
+
+
+/* like 喜欢 end */
+
+
+/* inventory 清单 start */
+
+.inventory {
+    height: 418px;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.inventory-left {
+    height: 41px;
+    margin-top: 17px;
+}
+
+.inventory-hd {
+    overflow: hidden;
+    position: relative;
+    height: 39px;
+    background-color: #fff;
+}
+
+.inventory-hd h4 {
+    float: left;
+    height: 41px;
+    line-height: 41px;
+    padding-left: 24px;
+}
+
+.inventory-hd .finds {
+    float: right;
+    line-height: 41px;
+}
+
+.inventory-hd .finds .arrow::before {
+    margin-right: 44px;
+}
+
+.inventory-bd div {
+    float: left;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.inventory-bd img {
+    width: 100%;
+    height: 100%;
+}
+
+.inventory-bd h4 {
+    padding: 15px;
+    color: #2c2a2b;
+}
+
+.inventory-bd p {
+    padding: 0 15px 15px;
+}
+
+.inventory-bd .surname {
+    display: block;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.surname .zan {
+    margin-right: 42px;
+}
+
+.surname .zan::before {
+    margin-right: 5px;
+}
+
+.surname .msg::before {
+    margin-right: 5px;
+}
+
+.inventory-right {
+    padding-left: 39px;
+    padding-right: 0;
+    margin-top: 17px;
+    background-color: #fff;
+}
+
+.inventory-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.inventory-right-hd {
+    height: 41px;
+}
+
+.inventory-right-hd h4 {
+    display: inline-block;
+    line-height: 41px;
+}
+
+.inventory-right-bd {
+    width: 77%;
+}
+
+.inventory-right-img {
+    width: 100%;
+    height: 100%;
+}
+
+.inventory-right-con {
+    border-top: 1px dotted #7f7f7f;
+    margin-top: 10px;
+}
+
+.inventory-right-con ul li {
+    height: 26px;
+    line-height: 26px;
+    padding: 4px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* inventory 清单 end */
+
+
+/* fixedTool 电梯导航 start */
+
+.fixedTool {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* 浏览器50% 版心一半600 自身宽70 离边10 */
+    margin-left: -680px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+}
+
+.fixed-box {
+    position: relative;
+    width: 70px;
+    padding-top: 10px;
+}
+
+.fixed-icon {
+    position: absolute;
+    top: -32px;
+    left: 13px;
+    width: 45px;
+    height: 38px;
+    background: url(../images/index.png) no-repeat -302px -80px;
+}
+
+.fixed-list li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-top: 0;
+}
+
+.fixed-list li:hover {
+    background-color: #ff9308;
+    color: #fff;
+}
+
+.return {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.return .icon {
+    display: inline-block;
+    width: 11px;
+    height: 13px;
+    vertical-align: middle;
+    background: url(../images/index.png) no-repeat -769px -90px;
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+.current {
+    background-color: #ef9e0e;
+    color: #fff;
+}
+
+
+/* fixedTool 电梯导航 end */
+
+
+/* floor 楼层 start */
+
+.floor {
+    margin-top: 29px;
+}
+
+.floor-hd {
+    height: 39px;
+    /* background-color: pink; */
+    border-bottom: 2px solid #7da6f6;
+}
+
+.floor-hd h4 {
+    float: left;
+    line-height: 39px;
+    padding: 0 20px;
+}
+
+.floor-hd .tab-list {
+    float: right;
+}
+
+.floor-hd .tab-list .tab-list-a {
+    border-bottom: 0;
+}
+
+.tab-content-01 .item {
+    display: none;
+}
+
+.tab-content-01 div:nth-child(1) {
+    background-color: #7ca5f5;
+    /* height: 474px; */
+}
+
+.tab-content-01 .banner-img {
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+.tab-content-01 .banner-img img {
+    width: 100%;
+    height: 473px;
+}
+
+.end-items {
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.tab-content-01 .items {
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+.tab-content-01 .items img {
+    width: 100%;
+    height: 235px;
+}
+
+.tab-content-01 ul li {
+    height: 34px;
+    line-height: 34px;
+    /* background-color: pink; */
+}
+
+.tab-content-01 ul li:hover {
+    background-color: #6095f5;
+}
+
+.tab-content-01 ul li a {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.tab-content-01 .banner-item {
+    position: absolute;
+    top: 355px;
+    left: -3px;
+    width: 95%;
+    height: 50px;
+    /* background-color: #fff; */
+}
+
+.tab-content-01 .banner-item ul li {
+    float: left;
+    width: 33%;
+    height: 50%;
+}
+
+
+/* floor 楼层 end */
+
+
+/* selling 热销榜 start  */
+
+.selling {
+    margin-top: 22px;
+}
+
+.selling-left {
+    height: 379px;
+    background-color: #fff;
+}
+
+.selling-hd {
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+}
+
+.selling-hd h4 {
+    float: left;
+    line-height: 40px;
+    padding-left: 24px;
+}
+
+.selling-hd .finds {
+    float: right;
+    line-height: 41px;
+}
+
+.selling-hd .finds .arrow::before {
+    margin-right: 44px;
+}
+
+.selling-bd div {
+    float: left;
+    /* padding: 0 15px; */
+    background-color: #fff;
+}
+
+.selling-bd .items {
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+.selling-right {
+    padding-left: 39px;
+    padding-right: 15px;
+    background-color: #fff;
+}
+
+.selling-right-hd {
+    height: 40px;
+}
+
+.selling-right-hd h4 {
+    display: inline-block;
+    line-height: 40px;
+}
+
+.selling-right-hd h5 {
+    display: inline-block;
+    color: #cdcfce;
+}
+
+.selling-right-hd .tab-list {
+    margin-left: 16px;
+}
+
+.selling-right-bd .selling-items {
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.selling-right-bd .selling-items img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* selling 热销榜 end  */
+
+
+/* 当我们进入小屏幕 还有 超小屏幕 */
+
+@media screen and (max-width: 991px) {
+    /* main 主体 start */
+    /* 焦点图 */
+    .focus {
+        margin-left: 0;
+        width: 100%;
+    }
+    /* main 主体 end */
+    /* like 喜欢 start  */
+    .like {
+        margin: 0 20px;
+    }
+    /* like 喜欢 end */
+    /* inventory 清单 start */
+    .inventory-hd h4 {
+        padding-left: 42px;
+    }
+    /* inventory 清单 end */
+}
+
+
+/* 当我们进入 超小屏幕 */
+
+@media screen and (max-width:414px) and (max-width:736px) {
+    /* Must 每日必抢 start */
+    .infor {
+        padding-right: 9px;
+    }
+    .must-hd .time {
+        padding-right: 6px;
+    }
+    .hour,
+    .minute,
+    .second {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    /* Must 每日必抢 end */
+    /* inventory 清单 start */
+    .inventory-bd p {
+        margin: 0 20px;
+        padding: 0;
+    }
+    .inventory-bd h4 {
+        margin-left: 3px;
+    }
+    .inventory-bd .surname {
+        margin-left: 24px;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+    /* inventory 清单 end */
+    /* floor 楼层 start */
+    .floor-hd .tab-list .tab-list-a li a {
+        padding: 10px 8px;
+    }
+    .floor-hd .tab-list .tab-list-a li {
+        margin: 0 5px;
+    }
+    .floor {
+        margin-top: 9px;
+    }
+    .floor-hd .tab-list {
+        float: left;
+    }
+    .end {
+        margin-top: 10px;
+    }
+    /* floor 楼层 end */
+    /* 移动焦点图 */
+    .k {
+        width: 100%;
+        height: 127px;
+        background: url(../upload/b.png) no-repeat;
+        background-size: cover;
+    }
+    .main {
+        height: 220px;
+    }
+    .focus {
+        position: absolute;
+        top: 95px;
+        left: 0;
+        z-index: 1;
+        border-radius: 20px;
+        padding: 0 12px;
+    }
+    .focus img {
+        border-radius: 20px;
+    }
+    .carousel-control {
+        display: none;
+    }
+}
+
+
+/* 当我们进入 超小屏幕 */
+
+@media screen and (max-width:320px) and (max-width:568px) {
+    .main {
+        height: 170px;
+    }
+}
